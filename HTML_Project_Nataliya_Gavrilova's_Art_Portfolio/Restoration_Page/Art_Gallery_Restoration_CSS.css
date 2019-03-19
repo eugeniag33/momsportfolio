@@ -1,0 +1,43 @@
+html, body {
+     background-color: #d6ffe1;
+}
+
+p {
+    padding:1em;
+}
+
+.cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+.cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
+  -o-transition: opacity 1.5s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.before:hover {
+  opacity:0;
+}
+
+.after:hover {
+     opacity:100;
+}
+
+.before {
+     opacity:100;
+}
+
+.after {
+     opacity:0;
+}
+
+a, h1, p {
+     color:#0d9658;
+}

@@ -1,0 +1,70 @@
+html, body {
+     display:flex;
+     flex-direction:column;
+     background-color: #ddd7ea;
+}
+
+.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+  
+table {
+     border: 5px solid #fff;
+     padding:10px;
+     position:relative;
+}
+
+td {
+     text-align:center;
+}
+
+h2 {
+    padding-right:5em;
+    padding-left:5em;
+}
+  
+a {
+     text-decoration:none;
+     color: #38295b;
+}
+
+div {
+     display:block;
+}
+
+footer {
+     white-space:nowrap;
+}
+
+footer > div > p, a {
+    display:inline;
+}
+
+.footer {
+    flex-wrap:wrap;
+    margin: auto;
+}
+
+.intro {
+     width:75%;
+     margin:auto;
+}
+
+/*Bootstrap classes for organization*/
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size:1.5em;
+  text-align:center;
+  padding:1em;
+}
+

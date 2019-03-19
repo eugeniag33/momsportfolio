@@ -1,0 +1,56 @@
+table {
+    border-collapse: collapse;
+    background-color:#d8c3cf;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top:1.6em;
+}
+
+p {
+    text-align:center;
+    font-family:Dosis;
+    font-size: 1.5em;
+    width:50%;
+    margin:auto;
+}
+
+tr, td {
+    padding:5px;
+}
+
+h1 {
+    font-family: Pacifico;
+    text-align:center;
+    font-size: 2em;
+}
+
+.return > a {
+    font-family: Dosis;
+    text-decoration:none;
+    padding: 10px;
+    border: 2px solid;
+    margin-bottom: 5px;
+}
+
+#footer {
+    position:absolute;
+    top:10px;
+    padding:1rem;
+    display:inline;
+    font-size:1.2em;
+}
+
+.nav {
+    margin:0 auto;
+    width:100px;
+}
+
+.nav > a {
+    text-decoration: none;
+    font-family: Dosis;
+    font-size:1.2em;
+}
+
+.nav > a:hover {
+    color:#680a0a;
+}
